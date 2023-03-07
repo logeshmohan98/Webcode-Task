@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(221, 39, 54);
+    background-image: url("https://flo.health/uploads/media/sulu-1230x-inset/05/1905-Two%20glasses%20of%20beer.jpg?v=1-0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.8;
+    
+    
+}
+h1{
+    text-align: center;
+    color:rgb(172, 48, 10)
+}
+
+h3{
+    color: rgb(134, 6, 13);
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+input[type="text"] {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    background-color: #043a06;
+    color: rgb(196, 189, 189);
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #30c035;
+}
+
+#results {
+    margin-top: 2rem;
+}
+
+.brewery {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color:#649D9F;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.2);
+}
+
+.brewery h3 {
+    margin-top: 0;
+}
+
+.brewery p {
+    margin: 0;
+}
+
+.brewery p:first-child {
+    font-weight: bold;
+}
